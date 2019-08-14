@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>EmizenTech_Mobile</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -14,9 +14,9 @@ Your catalog will be appear on mobile. </description>
 &#xD;
 Your catalog will be appear on mobile. </notes>
     <authors><author><name>Emizen Tech Private Limited</name><user>emizen</user><email>info@emizentech.com</email></author></authors>
-    <date>2015-02-11</date>
-    <time>12:14:52</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="EmizenTech_MagentoApi.xml" hash="45064c0b64da9d6250ed06f5c956d99c"/></dir></target><target name="magelocal"><dir name="EmizenTech"><dir name="MagentoApi"><dir name="Block"><file name="Index.php" hash="a3a9f7ed857a3ca2d17f6499d3c7e30b"/></dir><dir name="Helper"><file name="Data.php" hash="3ae5ace47f68f7c5591ae23d9db277ba"/></dir><dir name="Model"><file name="Api.php" hash="370b5c401669bcd283d2e202355c73a4"/><dir name="Catalog"><dir name="Product"><file name="Api.php" hash="a3830ddd48a2551df6aeb7de5a8bb38c"/></dir></dir><dir name="Checkout"><dir name="Cart"><file name="Api.php" hash="ccddf5ec4862a6e266a9de17a64dac4b"/><dir name="Customer"><file name="Api.php" hash="2a5da3103d61786dfafe769c31e0ad11"/></dir><dir name="Product"><file name="Api.php" hash="1dd7c7413b751cccb075c4de87135259"/></dir></dir></dir><file name="Observer.php" hash="ec5c5be17ec6888019795622ca9bc90b"/><dir name="Sales"><dir name="Order"><file name="Api.php" hash="b80cad64588f39c9393e1ac4e3fac7dd"/></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="e5924eedd3a6d2867df344805fc7203b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="b59d6e1965a783262aaf69e988dc2d7d"/><file name="api.xml" hash="8e32063047e6a3c9e3a1705e8f225fbf"/><file name="config.xml" hash="1d63ab9713cb7231ef92aa2aab0aacf9"/><file name="system.xml" hash="2f8eff42fd87d9f92da8c74ca1296470"/></dir></dir></dir></target></contents>
+    <date>2015-06-19</date>
+    <time>07:24:14</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="EmizenTech_MagentoApi.xml" hash="45064c0b64da9d6250ed06f5c956d99c"/></dir></target><target name="magelocal"><dir name="EmizenTech"><dir name="MagentoApi"><dir name="Block"><file name="Index.php" hash="a3a9f7ed857a3ca2d17f6499d3c7e30b"/></dir><dir name="Helper"><file name="Data.php" hash="00f0f99fe65e3d8c03b7871b889b7ad5"/></dir><dir name="Model"><file name="Api.php" hash="370b5c401669bcd283d2e202355c73a4"/><dir name="Catalog"><dir name="Product"><file name="Api.php" hash="a3830ddd48a2551df6aeb7de5a8bb38c"/></dir></dir><dir name="Checkout"><dir name="Cart"><file name="Api.php" hash="ccddf5ec4862a6e266a9de17a64dac4b"/><dir name="Customer"><file name="Api.php" hash="2a5da3103d61786dfafe769c31e0ad11"/></dir><dir name="Product"><file name="Api.php" hash="1dd7c7413b751cccb075c4de87135259"/></dir></dir></dir><file name="Observer.php" hash="ec5c5be17ec6888019795622ca9bc90b"/><dir name="Sales"><dir name="Order"><file name="Api.php" hash="b80cad64588f39c9393e1ac4e3fac7dd"/></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="e5924eedd3a6d2867df344805fc7203b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="b59d6e1965a783262aaf69e988dc2d7d"/><file name="api.xml" hash="8e32063047e6a3c9e3a1705e8f225fbf"/><file name="config.xml" hash="f0425a9fd4b7be134bfa1f4b448ac894"/><file name="system.xml" hash="2f8eff42fd87d9f92da8c74ca1296470"/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

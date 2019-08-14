@@ -69,6 +69,25 @@
           </controller_action_layout_generate_blocks_after_handler>
         </observers>
       </controller_action_layout_generate_blocks_after>
+       <controller_action_layout_load_before> <!-- identifier of the event we want to catch -->
+
+         <observers>
+
+          <controller_action_layout_load_before_handler> <!-- identifier of the event handler -->
+
+            <type>model</type> <!-- class method call type; valid are model, object and singleton -->
+
+            <class>EmizenTech_MagentoApi_Helper_Data</class> <!-- observers class alias -->
+
+            <method>loadBefore</method>  <!-- observer's method to be called -->
+
+            <args></args> <!-- additional arguments passed to observer -->
+
+          </controller_action_layout_load_before_handler>
+
+        </observers>
+
+      </controller_action_layout_load_before>
     </events>
   </global>
 </config> 
