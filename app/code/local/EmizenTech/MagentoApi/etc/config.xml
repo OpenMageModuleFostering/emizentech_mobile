@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <EmizenTech_MagentoApi>
+      <version>0.1.0</version>
+    </EmizenTech_MagentoApi>
+  </modules>
+  <frontend>
+    <routers>
+      <magentoapi>
+        <use>standard</use>
+          <args>
+            <module>EmizenTech_MagentoApi</module>
+            <frontName>magentoapi</frontName>
+          </args>
+      </magentoapi>
+    </routers>
+		<layout>
+		  <updates>
+			<magentoapi>
+			  <file>magentoapi.xml</file>
+			</magentoapi>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <magentoapi>
+        <class>EmizenTech_MagentoApi_Helper</class>
+      </magentoapi>
+    </helpers>
+	<blocks>
+	  <magentoapi>
+		<class>EmizenTech_MagentoApi_Block</class>
+	  </magentoapi>
+	</blocks>
+	<models>
+	  <magentoapi>
+		<class>EmizenTech_MagentoApi_Model</class>
+		<resourceModel>magentoapi_mysql4</resourceModel>
+	  </magentoapi>
+      <checkout>
+          <rewrite>
+            <cart_product_api>EmizenTech_MagentoApi_Model_Checkout_Cart_Product_Api</cart_product_api>
+            <cart_api>EmizenTech_MagentoApi_Model_Checkout_Cart_Api</cart_api>
+            <cart_customer_api>EmizenTech_MagentoApi_Model_Checkout_Cart_Customer_Api</cart_customer_api>
+          </rewrite>
+        </checkout>
+        <catalog>
+          <rewrite>
+              <product_api>EmizenTech_MagentoApi_Model_Catalog_Product_Api</product_api>
+              <!-- <category_api>EmizenTech_MagentoApi_Model_Catalog_Category_Api</category_api> -->
+          </rewrite>
+        </catalog>
+        <sales>
+          <rewrite>
+            <order_api>EmizenTech_MagentoApi_Model_Sales_Order_Api</order_api>
+          </rewrite>
+        </sales>
+	</models>
+    <events>
+      <controller_action_layout_generate_blocks_after> <!-- identifier of the event we want to catch -->
+        <observers>
+          <controller_action_layout_generate_blocks_after_handler> <!-- identifier of the event handler -->
+            <type>model</type> <!-- class method call type; valid are model, object and singleton -->
+            <class>magentoapi/observer</class> <!-- observers class alias -->
+            <method>RunWizard</method>  <!-- observer's method to be called -->
+            <args></args> <!-- additional arguments passed to observer -->
+          </controller_action_layout_generate_blocks_after_handler>
+        </observers>
+      </controller_action_layout_generate_blocks_after>
+    </events>
+  </global>
+</config> 

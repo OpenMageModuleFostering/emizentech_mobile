@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/EmizenTech_Mobile",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This module will make your catalog available for mobile app",
+    "authors": [
+    {
+        "name": "Emizen Tech Private Limited",
+        "email": "info@emizentech.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

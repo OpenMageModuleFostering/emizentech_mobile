@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <magentoapi_api translate="title" module="magentoapi">
+                <title>Myapi</title>
+                <acl>magentoapi/api</acl>
+                <model>magentoapi/api</model>
+                <methods>                    
+					<homeslides translate="title" module="magentoapi">
+                        <title>Home Slides</title>
+                        <acl>magentoapi/homeslides</acl>
+                    </homeslides>
+                    <homebanner translate="title" module="magentoapi">
+                        <title>Home Banner</title>
+                        <acl>magentoapi/homebanner</acl>
+                    </homebanner>
+                    <newproducts translate="title" module="magentoapi">
+                        <title>New Products</title>
+                        <acl>magentoapi/newproducts</acl>
+                    </newproducts>
+                    <productdetailbyid translate="title" module="magentoapi">
+                        <title>Product Detail By Id</title>
+                        <acl>magentoapi/productdetailbyid</acl>
+                    </productdetailbyid>
+                    <productsbycategoryid translate="title" module="magentoapi">
+                        <title>Product Detail By Category Id</title>
+                        <acl>magentoapi/productsbycategoryid</acl>
+                    </productsbycategoryid>
+                    <getcustomerid translate="title" module="magentoapi">
+                        <title>Get Customer Id</title>
+                        <acl>magentoapi/getcustomerid</acl>
+                    </getcustomerid>
+                    <relatedproducts translate="title" module="magentoapi">
+                        <title>Related Products</title>
+                        <acl>magentoapi/relatedproducts</acl>
+                    </relatedproducts>
+                    <getcmspagecontent translate="title" module="magentoapi">
+                        <title>Get CMS Page Content</title>
+                        <acl>magentoapi/getcmspagecontent</acl>
+                    </getcmspagecontent>
+                    <newsletter translate="title" module="magentoapi">
+                        <title>Newsletter</title>
+                        <acl>magentoapi/newsletter</acl>
+                    </newsletter>
+                    <contact translate="title" module="magentoapi">
+                        <title>Contact</title>
+                        <acl>magentoapi/contact</acl>
+                    </contact>
+                    <wishlistadd translate="title" module="magentoapi">
+                        <title>WishList Add</title>
+                        <acl>magentoapi/wishlistadd</acl>
+                    </wishlistadd>                    
+                    <wishlistdelete translate="title" module="magentoapi">
+                        <title>WishList Delete</title>
+                        <acl>magentoapi/wishlistdelete</acl>
+                    </wishlistdelete>                    
+                    <wishlistview translate="title" module="magentoapi">
+                        <title>WishList Delete</title>
+                        <acl>magentoapi/wishlistview</acl>
+                    </wishlistview>
+                </methods>
+            </magentoapi_api>
+        </resources>
+        <acl>
+            <resources>
+                <magentoapi translate="title" module="magentoapi">
+                    <title>MagentoApi</title>
+                    <sort_order>2000</sort_order>                    
+					<homeslides translate="title" module="magentoapi">
+                        <title>Home Slides</title>
+                    </homeslides>
+                    <homebanner translate="title" module="magentoapi">
+                        <title>Home Banner</title>
+                    </homebanner>
+                    <newproducts translate="title" module="magentoapi">
+                    <title>New Products</title>
+                    </newproducts>
+                    <productdetailbyid translate="title" module="magentoapi">
+                        <title>Product Detail By Id</title>
+                    </productdetailbyid>
+                    <productsbycategoryid translate="title" module="magentoapi">
+                        <title>Product Detail By Category Id</title>
+                    </productsbycategoryid>
+                    <getcustomerid translate="title" module="magentoapi">
+                        <title>Get Customer Id</title>
+                    </getcustomerid>
+                    <relatedproducts translate="title" module="magentoapi">
+                        <title>Related Products</title>
+                    </relatedproducts>
+                    <getcmspagecontent translate="title" module="magentoapi">
+                        <title>Get CMS Page Content</title>
+                    </getcmspagecontent>
+                    <newsletter translate="title" module="magentoapi">
+                        <title>Newsletter</title>
+                    </newsletter>
+                    <contact translate="title" module="magentoapi">
+                        <title>Contact</title>
+                    </contact>
+                    <wishlistadd translate="title" module="magentoapi">
+                        <title>WishList Add</title>
+                    </wishlistadd>                    
+                    <wishlistdelete translate="title" module="magentoapi">
+                        <title>WishList Delete</title>
+                    </wishlistdelete>                    
+                    <wishlistview translate="title" module="magentoapi">
+                        <title>WishList Delete</title>
+                    </wishlistview>
+                </magentoapi>
+            </resources>
+        </acl>
+    </api>
+</config>
