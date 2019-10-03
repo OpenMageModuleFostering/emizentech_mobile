@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/EmizenTech_Mobile",
+    "name": "openmage-module-fostering\/emizentech_mobile",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This module will make your catalog available for mobile app",
     "authors": [
